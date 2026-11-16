@@ -1,0 +1,16 @@
+{
+   "blockdevices": [
+      {"name":"nvme0n1","size":512110190592,"type":"disk","mountpoint":null,"model":"SAMSUNG MZVLB512HBJQ-000L7","rota":false,"tran":"nvme","rm":false,
+         "children": [
+            {"name":"nvme0n1p1","size":536870912,"type":"part","mountpoint":"/boot/efi","model":null,"rota":false,"tran":null,"rm":false},
+            {"name":"nvme0n1p2","size":511571517440,"type":"part","mountpoint":"/","model":null,"rota":false,"tran":null,"rm":false}
+         ]
+      },
+      {"name":"sda","size":1000204886016,"type":"disk","mountpoint":null,"model":"ST1000LM035-1RK172","rota":true,"tran":"sata","rm":false,
+         "children": [
+            {"name":"sda1","size":1000203091968,"type":"part","mountpoint":"/data","model":null,"rota":true,"tran":null,"rm":false}
+         ]
+      },
+      {"name":"loop0","size":4096,"type":"loop","mountpoint":"/snap/bare/5","model":null,"rota":false,"tran":null,"rm":false}
+   ]
+}

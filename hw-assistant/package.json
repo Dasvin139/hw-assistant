@@ -1,0 +1,14 @@
+{
+  "name": "hw-assistant",
+  "version": "1.0.0",
+  "description": "Local Linux hardware Q&A assistant with safe, allow-listed tool calling",
+  "type": "module",
+  "bin": { "hw-assistant": "src/cli.js" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "demo": "node src/cli.js --offline --fixtures fixtures/laptop-1",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
